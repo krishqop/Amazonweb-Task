@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+}
+.main{
+    background-color: black;
+    height: 50px;
+}
+/* first nav */
+.header{
+    display: flex;
+}
+.head{
+ padding:5px;
+ margin: 10px 0 0 10px;
+}
+.head1{
+    color: white;
+    margin: 5px 0 0 220px;
+    position: absolute;
+    font-size: 11px;
+}
+.head2{
+    color: white;
+    margin: 15px 0 5px 100px;
+}
+.hh{
+   margin-top: -20px;
+   margin-left: 20px;
+}
+.head3{
+     color: white;
+}
+.all{
+    position: absolute;
+    margin: 9.5px 0 0  115px;
+    height: 26px;
+    background-color: rgb(161, 156, 156);
+    border-radius: 3px;
+}
+.input{
+    background-color:rgb(255, 255, 255);
+    width: 500px;
+    height: 25px;
+    color: black;
+    position: absolute;
+    margin: 10px 0 0 150px;   
+}
+.input1{
+    margin: 5px 0 0 2px; 
+}
+.location{
+    color: rgb(14, 13, 13);
+    position: absolute;
+    margin:10px 0 0 630px;
+    background-color:yellow;
+    height: 13px;
+    width: 20px;
+    padding: 6px; 
+    border-radius: 3px;    
+}
+.head4{
+     color: white;
+     position: absolute;
+     margin: 10px 0 0 1050px;
+}
+.head5{
+     color: white;
+     position: absolute;
+     margin: 10px 0 0 1180px;
+}
+.head6{
+   color: white;
+   margin: 10px 0 0 1020px;
+}
+/* end */
+/* secend nav */
+.nav{
+   background-color: rgb(20, 17, 36);
+    width: 1351px;
+    height: 38px;
+    display: flex;
+    color: white;
+    gap: 30px;
+    position: absolute;   
+}
+.nav1{
+    margin-top: 10px;
+}
+ .nav9{
+     position: absolute;
+     margin: 10px 0 0 1100px;
+ }
+ /* end  */
+ /* pic 4 */
+ .sec{
+    display: flex; 
+    /* justify-content: center; */
+ }
+ .pic4{
+    background-color: gray;
+    height: 300px;
+ }
+ .pic1,.pic2,.pic3,.pic5{
+    background-color: white;
+    width: 200px;
+    height: 250px;
+    margin:25px 0 0px 100px;
+ }
+ .pp{
+    margin: 5px 0 0 25px;
+ }
+ .shop{
+    margin: 30px 0 0 30px;
+ }
+ .ppp{
+    margin-left: 20px;
+ }
+ /* end  */
+ /* foot line  */
+ .foot{
+    background-color: rgb(31, 25, 82); 
+    /* width: 1320px; */
+    height: 26px;
+    text-align: center;
+    padding: 10px;
+ }
+ /* end  */
+ /* footer  */
+ .footer{
+    background-color: rgb(5, 5, 34);
+    width: 1350px;
+    height: 300px;
+    display: flex;
+ }
+ .footer1,.footer2,.footer3,.footer4{
+    color: white;
+    margin: 40px 0 0 160px;
+ }
+ .sub{
+    margin: 6px;
+    font-size: 11px;
+    opacity: 40%;
+ }
+ /* end  */
+
+ @media (max-width:600px) {
+   .head1,.head2,.all,.head5{
+      display: none;
+   }
+   .main{
+      width: 600px;
+   }
+   .input{
+      margin-left: 60px;
+      width: 200px;
+   }
+   .location{
+      margin-left: 258px;
+   }
+   .head4{
+      margin-left: 430px;
+   }
+   .head6{
+      margin-left: 450px;
+   }
+   .nav{
+      width: 600px;
+      gap: 15px;
+   }
+   .nav1{
+      margin-top: -0.5px;
+      font-size: 14px;
+   }
+   .amazonimage{
+      width: 600px;   
+   }
+   .pic4{
+      width: 600px;
+      height: 1150px;
+   }
+   .sec{
+      flex-direction: column;
+      margin-left: 80px;
+   }
+   .foot{
+      width: 580px;
+      text-align: center;
+   }
+   .footer{
+      flex-direction: column;
+      height: 600px;
+      width: 600px;
+   }
+   .footer1,.footer2,.footer3,.footer4{
+      margin-left: 250px;
+   }
+ }
+ 
+
+
+
+ 
